@@ -6,8 +6,8 @@ google-auth==2.27.0
 google-auth-oauthlib==1.2.0
 google-auth-httplib2==0.2.0
 tldextract==5.1.1
-plotly==5.18.0
-requests==2.31.0
-seleniumbase==4.46.4          # ارتقا به آخرین نسخه پایدار (فوریه ۲۰۲۶)
-# undetected-chromedriver==3.5.5   # کامنت یا حذف – seleniumbase خودش UC mode داره
-# selenium==4.16.0             # حذف یا کامنت – seleniumbase خودش selenium مناسب رو نصب می‌کنه
+plotly>=5.18.0                # ← به >= تغییر بده تا نسخه جدیدتر اجازه بده packaging جدید نصب بشه
+requests>=2.32.0              # ← به >=2.32.0 تغییر بده (seleniumbase نیاز داره)
+seleniumbase==4.46.4
+# undetected-chromedriver==3.5.5   # کامنت یا حذف
+# selenium==4.16.0             # کامنت یا حذف
